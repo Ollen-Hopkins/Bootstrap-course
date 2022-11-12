@@ -29,8 +29,8 @@
                <h2>a better way to camp</h2>
             </div>
             <div class="col col-md-4 col-xl-2 mt-4">
-               <a class="text-white" data-toggle="modal" data-target="#reserveModal">
-                  <button type="button" class="btn-primary  btn-lg">Reserve Campsite</button>
+               <a class="text-white">
+                  <button type="button" class="btn-primary btn-lg" id="reserveButton">Reserve Campsite</button>
                </a>
             </div>
          </div>
@@ -38,7 +38,7 @@
       <div id="reserveModal" class="modal fade" role="dialog">
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-               <div class="modal-header bg-info text-white">
+               <div class="modal-header">
                   <h3 class="model-title">Reserve a Campsite</h3>
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
                </div>
@@ -125,7 +125,7 @@
                </li>
             </ul>
             <span class="navbar-text ml-auto">
-               <a role="button" data-toggle="modal" data-target="#loginModal">
+               <a role="button" class="loginButton">
                   <i class="fa fa-sign-in"></i> Login
                </a>
             </span>
